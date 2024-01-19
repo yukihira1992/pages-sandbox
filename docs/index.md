@@ -1,5 +1,5 @@
 # pages-sandbox
 
-ブランチからの公開
+GitHub Actionsからの公開
 
 - [sub-directory](./sub-directory/index.md)
