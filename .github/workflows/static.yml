@@ -35,9 +35,9 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build Pages
         run: |
-          echo "<code>" >> docs/index.html
-          tree docs/ >> docs/index.html
-          echo "</code>" >> docs/index.html
+          echo "<pre><code>" >> docs/index.html
+          tree --noreport docs/ >> docs/index.html
+          echo "</code></pre>" >> docs/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
